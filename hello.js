@@ -6,3 +6,10 @@ const sayHello  = function (num) {
 }
 
 sayHello(10);
+
+
+const returnSayHello  = function (name) {
+  return "Hello, " + name;
+}
+const greeting = returnSayHello('John');
+console.log(greeting);
